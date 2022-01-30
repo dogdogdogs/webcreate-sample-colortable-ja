@@ -1,0 +1,29 @@
+body {
+  margin: 0 auto;
+  max-width: 960px;
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ W3", "Hiragino Kaku Gothic", メイリオ, "Lucida Grande", Verdana, sans-serif;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+.title {
+  background: skyblue;
+  height: 108px;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  font-size: 78px;
+}
+.color-table {
+  margin: 32px auto;
+  width: 90%;
+}
+td {
+  width: calc(100% / 5);
+}
